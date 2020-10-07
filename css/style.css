@@ -1,5 +1,7 @@
 body {
     background-color: #FFFEFA;
+    margin: 0;
+    padding: 0;
 }
 
 #menu-logo {
@@ -16,7 +18,33 @@ body {
     color: #f9d76f;
 }
 
-
 .bg-dark {
 background-color: #2b3450 !important;
+}
+
+.col-12 {
+    padding: 0;
+}
+
+.dropdown-menu {
+    width: 100%;
+    text-align: center;
+    margin-top: 1px;
+    background-color: #2b3450;
+    border: 0;
+}
+
+.navContent {
+    color: #f9d76f;
+    margin-top: 2rem;
+}
+
+.navContent a {
+    color: #f9d76f;
+    margin-bottom: 8px;
+}
+
+#meny-tittle {
+    font-size: 2.25rem;
+    padding-bottom: 25px;
 }
