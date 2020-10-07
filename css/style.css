@@ -1,0 +1,22 @@
+body {
+    background-color: #FFFEFA;
+}
+
+#menu-logo {
+    height: 3rem;
+    width: auto;
+}
+
+.flag {
+    width: 24px;
+    height: 24px;
+}
+
+.navbar-toggler-icon {
+    color: #f9d76f;
+}
+
+
+.bg-dark {
+background-color: #2b3450 !important;
+}
