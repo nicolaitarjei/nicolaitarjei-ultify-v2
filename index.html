@@ -32,49 +32,28 @@
     </head>
     <body>
         <!--Logo in navbar-->
-        <div class="mainNav">
-            <nav class="navbar navbar bg-dark">
-                    <a class="navbar-brand" href="#">
-                        <img alt="Ultify logo" id="menu-logo" src="img/Ultify-logo-hvit-skrift-uten.png">
-                    </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                        </svg>
-                    </span>
-                </button>
-                    <!-- Main Nav in dropdown-->
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Item 1</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Item 2</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Item 3</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Item 4</a>
-                            </li>
-                        </ul>
-                        <!-- Dropdown for lang start -->
-				        <div class="dropdown language navbar ">
-					        <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						        <img src="img/flag-no.svg" alt="norwegian flag" class="flag">Norsk
-					        </button>
-					        <div class="dropdown-menu dropdown-menu-left text-right language">
-						        <a class="dropdown-item" href="en/index.html">
-                                    <img src="img/flag-us.svg" alt="American flag" class="flag">English
-                                </a>
-					        </div>
-				        </div>
-		                <!-- Dropdown for language stop-->	
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-dark bg-dark ">
+                            <a class="navbar-brand" href="#">Navbar</a>
+                                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="navbarToggleExternalContent">
+                                    <div class="navContent" id="dropdownMenuButton">
+                                        <h5 id="meny-tittle">MENY</h5>
+                                        <ul class="navbar-nav ml-auto">
+                                            <li><a class="dropdown-item" href="#">Item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Item 3</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                        </nav>
                     </div>
-            </nav>
-        </div>
+                </div>
+            </div>
         <header>
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
