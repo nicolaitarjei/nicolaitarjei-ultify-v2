@@ -28,23 +28,68 @@ background-color: #2b3450 !important;
 
 .dropdown-menu {
     width: 100%;
+    height: 100vh;
     text-align: center;
     margin-top: 1px;
     background-color: #2b3450;
     border: 0;
+    opacity: 0.9;
 }
 
 .navContent {
     color: #f9d76f;
     margin-top: 2rem;
+    
 }
 
 .navContent a {
     color: #f9d76f;
     margin-bottom: 8px;
+    opacity: none;
 }
 
 #meny-tittle {
     font-size: 2.25rem;
     padding-bottom: 25px;
+}
+
+#logoNav {
+    width: 93px;
+    height: auto;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #f9d76f;
+}
+
+.navbar-dark .navbar-toggler:hover {
+    border-color: #f5e5b6;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(249,215,111, 4)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-dark .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(245,229,182, 4)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+#navbar-2 {
+    position: absolute;
+    right: 12vh;
+    display: inline;
+}
+
+#navbar-2 li {
+    display: inline;
+    padding: 0 10px;
+    color: #f9d76f;
+}
+
+#navbar-2 a {
+    color: #f9d76f;
+}
+
+#navbar-2 a:hover {
+    color: #f5e5b6;
 }
