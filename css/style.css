@@ -4,6 +4,19 @@ body {
     padding: 0;
 }
 
+button {
+    padding: 1vh;
+    margin-bottom: 2vh;
+}
+
+/* global scope */
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+/* Main image */
+
 #menu-logo {
     height: 3rem;
     width: auto;
@@ -28,23 +41,204 @@ background-color: #2b3450 !important;
 
 .dropdown-menu {
     width: 100%;
+    height: 100vh;
     text-align: center;
     margin-top: 1px;
     background-color: #2b3450;
     border: 0;
+    opacity: 0.9;
 }
 
 .navContent {
     color: #f9d76f;
     margin-top: 2rem;
+    
 }
 
 .navContent a {
     color: #f9d76f;
     margin-bottom: 8px;
+    opacity: none;
 }
 
 #meny-tittle {
     font-size: 2.25rem;
     padding-bottom: 25px;
 }
+
+#logoNav {
+    width: 93px;
+    height: auto;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #f9d76f;
+}
+
+.navbar-dark .navbar-toggler:hover {
+    border-color: #f5e5b6;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(249,215,111, 4)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-dark .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(245,229,182, 4)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+#navbar-2 {
+    position: absolute;
+    right: 12vh;
+    display: inline;
+}
+
+#navbar-2 li {
+    display: inline;
+    padding: 0 10px;
+    color: #f9d76f;
+}
+
+#navbar-2 a {
+    color: #f9d76f;
+}
+
+#navbar-2 a:hover {
+    color: #f5e5b6;
+}
+
+/* Nav end */
+
+#container1 { /* Mobil */
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (min-width: 576px) { /* Tablet + */
+    #container1 {
+       display: flex;
+    }
+}
+
+@media (min-width: 992px) { /* Desktop + */
+    #container1 {
+        flex-direction: row;
+    }
+}
+
+/* Section 1 container end*/
+
+#colImage1 img{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 576px) { /* Tablet + */
+    #colImage1 img{
+        display: flex;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 992px) { /* Desktop + */
+    #colImage1 img{
+        padding-left: 1%;
+        height: 100%;
+        width: 100%;        
+    }
+}
+
+/* Section 1 image end*/
+
+#colText1 {
+    display: inline;
+    justify-content: space-evenly;
+}
+
+@media (min-width: 576px) {
+    #colText1 {
+        display: block;
+        margin-top: 1em;
+
+    }
+}
+
+@media (min-width: 992px) { /* Desktop + */
+    #colText1{
+        display: block;
+        margin-left: 1em;
+        margin-top: 5em;
+    }
+}
+
+/* Section 1 end */
+
+#container2 { /* Mobil */
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (min-width: 576px) { /* Tablet + */
+    #container2 {
+       display: flex;
+       flex-direction: row;
+    }
+}
+
+@media (min-width: 576px) { /* Desktop + */
+    #container2 {
+       display: flex;
+       flex-direction: row-reverse;
+    }
+}
+
+/* Section 2 container end*/
+
+#colImage2 img{ /* Mobil + */
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 576px) { /* Tablet + */
+    #colImage2 img{
+        display: flex;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 992px) { /* Desktop + */
+    #colImage2 img{
+        padding-left: 1%;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* Section 2 image end*/
+
+#colText2 { /* Mobil + */
+    display: inline;
+    justify-content: space-evenly;
+}
+
+@media (min-width: 576px) { /* Tablet + */
+    #colText2 {
+        display: block;
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 992px) { /* Desktop + */
+    #colText2 {
+        display: block;
+        margin-left: 1em;
+        margin-top: 5em;
+    }
+}
+
+
+/* Section 2 end */
