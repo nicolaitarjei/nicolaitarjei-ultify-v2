@@ -4,6 +4,19 @@ body {
     padding: 0;
 }
 
+button {
+    padding: 1vh;
+    margin-bottom: 2vh;
+}
+
+/* global scope */
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+/* Main image */
+
 #menu-logo {
     height: 3rem;
     width: auto;
@@ -93,3 +106,139 @@ background-color: #2b3450 !important;
 #navbar-2 a:hover {
     color: #f5e5b6;
 }
+
+/* Nav end */
+
+#container1 { /* Mobil */
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (min-width: 576px) { /* Tablet + */
+    #container1 {
+       display: flex;
+    }
+}
+
+@media (min-width: 992px) { /* Desktop + */
+    #container1 {
+        flex-direction: row;
+    }
+}
+
+/* Section 1 container end*/
+
+#colImage1 img{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 576px) { /* Tablet + */
+    #colImage1 img{
+        display: flex;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 992px) { /* Desktop + */
+    #colImage1 img{
+        padding-left: 1%;
+        height: 100%;
+        width: 100%;        
+    }
+}
+
+/* Section 1 image end*/
+
+#colText1 {
+    display: inline;
+    justify-content: space-evenly;
+}
+
+@media (min-width: 576px) {
+    #colText1 {
+        display: block;
+        margin-top: 1em;
+
+    }
+}
+
+@media (min-width: 992px) { /* Desktop + */
+    #colText1{
+        display: block;
+        margin-left: 1em;
+        margin-top: 5em;
+    }
+}
+
+/* Section 1 end */
+
+#container2 { /* Mobil */
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (min-width: 576px) { /* Tablet + */
+    #container2 {
+       display: flex;
+       flex-direction: row;
+    }
+}
+
+@media (min-width: 576px) { /* Desktop + */
+    #container2 {
+       display: flex;
+       flex-direction: row-reverse;
+    }
+}
+
+/* Section 2 container end*/
+
+#colImage2 img{ /* Mobil + */
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 576px) { /* Tablet + */
+    #colImage2 img{
+        display: flex;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 992px) { /* Desktop + */
+    #colImage2 img{
+        padding-left: 1%;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* Section 2 image end*/
+
+#colText2 { /* Mobil + */
+    display: inline;
+    justify-content: space-evenly;
+}
+
+@media (min-width: 576px) { /* Tablet + */
+    #colText2 {
+        display: block;
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 992px) { /* Desktop + */
+    #colText2 {
+        display: block;
+        margin-left: 1em;
+        margin-top: 5em;
+    }
+}
+
+
+/* Section 2 end */
