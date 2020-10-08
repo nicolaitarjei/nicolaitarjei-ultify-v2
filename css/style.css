@@ -12,6 +12,7 @@ button {
 iframe {
     width: 100%;
     height: 37em;
+    border: none;
 }
 
 /* global scope */
@@ -246,7 +247,7 @@ background-color: #2b3450 !important;
 }
 
 .carousel-text-content {
-    
+    text-align: center;
 }
 
 .carousel-inner {
