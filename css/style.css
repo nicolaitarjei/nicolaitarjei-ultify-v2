@@ -23,10 +23,6 @@ iframe {
 
 /* Main image */
 
-#menu-logo {
-    height: 3rem;
-    width: auto;
-}
 
 .flag {
     width: 24px;
@@ -73,7 +69,7 @@ background-color: #2b3450 !important;
 }
 
 #logoNav {
-    width: 93px;
+    max-width: 93px;
     height: auto;
 }
 
