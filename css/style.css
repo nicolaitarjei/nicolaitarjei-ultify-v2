@@ -136,15 +136,14 @@ background-color: #2b3450 !important;
 @media (min-width: 576px) { 
     #viteMer {
        display: flex;
+       flex-direction: column;
     }
     #viteMerImage img {
-        display: flex;
         background-repeat: no-repeat;
         max-width:100%;
         max-height:100%;
     }
     #viteMerText {
-        display: block;
         margin-top: 1em;
     }
 }
@@ -153,6 +152,7 @@ background-color: #2b3450 !important;
 
 @media (min-width: 992px) { 
     #viteMer {
+        display: flex;
         flex-direction: row;
     }
     #viteMerImage img{
@@ -161,7 +161,6 @@ background-color: #2b3450 !important;
         max-height:100%;       
     }
     #viteMerText {
-        display: block;
         max-width: 50%;
         margin-top: 2em;
     }
@@ -171,6 +170,7 @@ background-color: #2b3450 !important;
 /* Section 1 end */
 
 #byggeNoe { 
+    display: flex;
     flex-direction: column;
 }
 
@@ -181,7 +181,6 @@ background-color: #2b3450 !important;
 }
 
 #byggeNoeText { 
-    display: inline;
     justify-content: space-evenly;
 }
 
@@ -189,8 +188,10 @@ background-color: #2b3450 !important;
 
 @media (min-width: 576px) {
     #byggeNoe {
-       flex-direction: row-reverse;
+    display: flex;
+    flex-direction: column;
     }
+
     #byggeNoeImage img{
         background-repeat: no-repeat;
         background-size: cover;
@@ -198,15 +199,18 @@ background-color: #2b3450 !important;
         max-height:100%;
     }
     #byggeNoeText {
-        display: block;
         margin-top: 1em;
-        max-width: 50%;
     }
 }
 
 /* ByggNoe Tablet end */
 
 @media (min-width: 992px) { 
+    #byggeNoe {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
     #byggeNoeImage img{
         padding-left: 1%;
         max-width:100%;
