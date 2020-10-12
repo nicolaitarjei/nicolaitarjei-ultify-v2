@@ -264,6 +264,15 @@ background-color: #2b3450 !important;
 
 /* Testimonials image end */
 
+
+@media (min-width: 576px) {
+    #testimonials-carousel {
+        display: none;
+    }
+}
+
+
+
 .carousel-item {
     text-align: center;
 }
@@ -280,6 +289,35 @@ background-color: #2b3450 !important;
 .carousel-inner {
     align-content: center;
     margin-right: 0;
+}
+
+/* Testimonials carousel end*/
+
+@media (max-width: 575px) {
+    .test{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .test3{
+        display: none;
+    }
+}
+
+#testimonials-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#testimonials-row img {
+    width: 15%;
+}
+
+.test {
+    padding: 0 1%;
 }
 
 /* Testimonials end */
