@@ -236,16 +236,16 @@ background-color: #2b3450 !important;
     max-height:100%;
 }
 
-.hjelp-text {
-    text-align: center;
-}
+
 
 @media (min-width: 576px) {
 
 }
 
 @media (min-width: 992px) {
-
+    .hjelp-text {
+        text-align: center;
+    }
 }
 
 /* hjelp 2 end */
@@ -371,6 +371,10 @@ background-color: #2b3450 !important;
 
 }
 
+.article-text {
+    text-align: left;
+}
+
 .article-img img {
     width: 100%;
 }
@@ -386,6 +390,12 @@ background-color: #2b3450 !important;
     .article-content {
         margin: 0 1em;
     }
+}
+
+@media (min-width: 992px) {
+    .article-text {
+        text-align: center;
+    } 
 }
 
 footer {
