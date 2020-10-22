@@ -129,41 +129,8 @@ background-color: #2b3450 !important;
 
 /* ViteMer mobil end */
 
-@media (min-width: 576px) { 
-    #viteMer {
-       display: flex;
-       flex-direction: column;
-    }
-    #viteMerImage img {
-        background-repeat: no-repeat;
-        max-width:100%;
-        max-height:100%;
-    }
-    #viteMerText {
-        margin-top: 1em;
-    }
-}
 
-/* ViteMer Tablet end */
 
-@media (min-width: 992px) { 
-    #viteMer {
-        display: flex;
-        flex-direction: row;
-    }
-    #viteMerImage img{
-        padding-left: 1%;
-        max-width:100%;
-        max-height:100%;       
-    }
-    #viteMerText {
-        max-width: 50%;
-        margin-top: 2em;
-    }
-}
-
-/* ViteMer Desktop end */
-/* Section 1 end */
 
 #byggeNoe { 
     display: flex;
@@ -180,51 +147,6 @@ background-color: #2b3450 !important;
     justify-content: space-evenly;
 }
 
-/* ByggNoe Mobil end */
-
-@media (min-width: 576px) {
-    #byggeNoe {
-    display: flex;
-    flex-direction: column;
-    }
-
-    #byggeNoeImage img{
-        background-repeat: no-repeat;
-        background-size: cover;
-        max-width:100%;
-        max-height:100%;
-    }
-    #byggeNoeText {
-        margin-top: 1em;
-    }
-}
-
-/* ByggNoe Tablet end */
-
-@media (min-width: 992px) { 
-    #byggeNoe {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
-    #byggeNoeImage img{
-        padding-left: 1%;
-        max-width:100%;
-        max-height:100%;
-    }
-    #byggeNoeText {
-        display: block;
-        margin-left: 1em;
-        margin-top: 3em;
-        max-width: 58%;
-    }
-}
-
-/* ByggNoe Desktop end */
-/* Section 2 end */
-
-
-
 #hjelp {
     display: flex;
     flex-direction: column;
@@ -237,40 +159,9 @@ background-color: #2b3450 !important;
 }
 
 
-
-@media (min-width: 576px) {
-
-}
-
-@media (min-width: 992px) {
-    .hjelp-text {
-        text-align: center;
-    }
-}
-
-/* hjelp 2 end */
-
-
 .t-img { /* Mobil + */
     max-width: 19%;
 }
-
-@media (min-width: 576px) { /* Tablet + */
-    .t-img {
-        max-width: 15%;
-    }
-}
-
-
-/* Testimonials image end */
-
-
-@media (min-width: 576px) {
-    #testimonials-carousel {
-        display: none;
-    }
-}
-
 
 
 .carousel-item {
@@ -292,18 +183,6 @@ background-color: #2b3450 !important;
 }
 
 /* Testimonials carousel end*/
-
-@media (max-width: 575px) {
-    .test{
-        display: none;
-    }
-}
-
-@media (max-width: 768px) {
-    .test3{
-        display: none;
-    }
-}
 
 #testimonials-row {
     display: flex;
@@ -379,25 +258,6 @@ background-color: #2b3450 !important;
     width: 100%;
 }
 
-@media (min-width: 576px) {
-    #articles {
-        flex-direction: row;
-        text-align: left;
-        margin-top: 2%;
-        margin-bottom: 5%;
-        position: relative;
-    }
-    .article-content {
-        margin: 0 1em;
-    }
-}
-
-@media (min-width: 992px) {
-    .article-text {
-        text-align: center;
-    } 
-}
-
 footer {
     background-color: #2b3450;
     padding-top: 5%;
@@ -432,7 +292,61 @@ footer img {
     margin-left: 4%;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 575px) {
+    .test{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .test3{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) { 
+    #viteMer {
+       display: flex;
+       flex-direction: column;
+    }
+    #viteMerImage img {
+        background-repeat: no-repeat;
+        max-width:100%;
+        max-height:100%;
+    }
+    #viteMerText {
+        margin-top: 1em;
+    }
+    #byggeNoe {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    #byggeNoeImage img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width:44vw;
+        max-height:100%;
+    }
+    #byggeNoeText {
+        margin-top: 1em;
+    }
+    #testimonials-carousel {
+        display: none;
+    }
+    .t-img {
+        max-width: 15%;
+    }
+    #articles {
+        flex-direction: row;
+        text-align: left;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        position: relative;
+    }
+    .article-content {
+        margin: 0 1em;
+    }
     .footer {
         flex-direction: row;
         padding-left: 2%;
@@ -451,4 +365,44 @@ footer img {
     footer {
         padding-top: 1%;
     }
+}
+
+/* ViteMer Tablet end */
+
+@media (min-width: 992px) { 
+    #viteMer {
+        display: flex;
+        flex-direction: row;
+    }
+    #viteMerImage img{
+        padding-left: 1%;
+        max-width:100%;
+        max-height:100%;       
+    }
+    #viteMerText {
+        max-width: 50%;
+        margin-top: 2em;
+    }
+    #byggeNoe {
+        display: flex;
+        flex-direction: row-reverse !important;
+    }
+
+    #byggeNoeImage img{
+        padding-left: 1%;
+        max-width:100%;
+        max-height:100%;
+    }
+    #byggeNoeText {
+        display: block;
+        margin-left: 1em;
+        margin-top: 3em;
+        max-width: 58%;
+    }
+    .hjelp-text {
+        text-align: center;
+    }
+    .article-text {
+        text-align: center;
+    } 
 }
