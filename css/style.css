@@ -292,7 +292,38 @@ footer img {
     margin-left: 4%;
 }
 
-@media (max-width: 575px) {
+.site-margin { /* Personvern space top  */
+    margin-top: 2rem;
+}
+
+#arrangere-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#arrangereImage {
+    margin: 0 5px;
+}
+
+#arrangereImage img {
+    width: 100%;
+}
+
+#arrangereText {
+    width: 100%;
+}
+
+.kontakt-oss-stripe {
+    background-color: blue;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+}
+
+@media (max-width: 575px) {   
     .test{
         display: none;
     }
@@ -305,6 +336,10 @@ footer img {
 }
 
 @media (min-width: 576px) { 
+    #arrangereImage {
+        margin-top: 10px;
+    }
+    
     #viteMer {
        display: flex;
        flex-direction: column;
@@ -370,6 +405,11 @@ footer img {
 /* ViteMer Tablet end */
 
 @media (min-width: 992px) { 
+    #arrangere-container {
+        flex-direction: row;
+    }
+    
+    
     #viteMer {
         display: flex;
         flex-direction: row;
