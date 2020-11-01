@@ -353,8 +353,23 @@ footer img {
     margin-right: 10px;
 }
 
+.profile-blogg-container {
+    background-color: brown;
+    padding-top: 20px;
+    margin-top: 25px;
+}
+
+.profile-blogg-title {
+    margin-left: 4%;
+    margin-bottom: 6%;
+}
+
+
 @media (max-width: 575px) {   /* THIS IS MAX */
-    
+    .profile-blogg-title {
+        margin-left: 4%;
+        margin-bottom: 6%;
+    }
     .test{
         display: none;
     }
@@ -369,7 +384,7 @@ footer img {
 
 @media (min-width: 576px) {     /* THIS IS MIN */
     .profile-img img {
-        width: 100%;
+        width: 50rem;
     }
     
     #arrangere-container {
@@ -454,6 +469,10 @@ footer img {
 }
 
 @media (min-width: 768px) {
+    .profile-img img {
+        width: 50rem;
+    }
+    
     .profile-container {
         display: flex;
     }
@@ -477,6 +496,10 @@ footer img {
 }
 
 @media (min-width: 992px) { 
+    .profile-text {
+        margin-left: 15px;
+    }
+    
     #arrangere-container {
         flex-direction: row;
         
