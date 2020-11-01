@@ -160,7 +160,9 @@ background-color: #2b3450 !important;
 
 
 .t-img { /* Mobil + */
-    max-width: 19%;
+    max-width: 80%;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 
@@ -191,8 +193,9 @@ background-color: #2b3450 !important;
     text-align: center;
 }
 
-#testimonials-row img {
-    width: 15%;
+#campus-logo {
+    width: 15rem;
+    margin-bottom: 20px;
 }
 
 .test {
@@ -305,7 +308,7 @@ footer img {
 }
 
 #arrangereImage {
-    margin: 0 5px;
+    margin: 0 0;
 }
 
 #arrangereImage img {
@@ -316,14 +319,42 @@ footer img {
     width: 100%;
 }
 
-.kontakt-oss-stripe {
-    background-color: blue;
+.kontakt-oss-container {
+    background-color: #2b3450;
     width: 100%;
-    height: 10vh;
+    height: 12vh;
     text-align: center;
+    padding-top: 15px;
 }
 
-@media (max-width: 575px) {   
+.kontakt-oss-items h6 {
+    color: #f9d76f;
+}
+
+.kontakt-oss-btn {
+    padding: 2px 4px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.profile-img img {
+    max-width: 100%;
+}
+
+.profile-text {
+    margin: 0 10px 10px 10px;
+}
+
+.profile-contact {
+    display: flex;
+}
+
+.mailto {
+    margin-right: 10px;
+}
+
+@media (max-width: 575px) {   /* THIS IS MAX */
+    
     .test{
         display: none;
     }
@@ -333,11 +364,30 @@ footer img {
     .test3{
         display: none;
     }
+
 }
 
-@media (min-width: 576px) { 
-    #arrangereImage {
-        margin-top: 10px;
+@media (min-width: 576px) {     /* THIS IS MIN */
+    .profile-img img {
+        width: 100%;
+    }
+    
+    #arrangere-container {
+        flex-direction: column;
+    }
+    
+    .kontakt-oss-container {
+    padding-bottom: 100px;
+    }
+
+    .kontakt-oss-items {
+        margin-top: 7px;
+    }
+
+    .kontakt-oss-btn {
+        padding: 2px 4px;
+        border-radius: 5px;
+        margin-top: 5px;
     }
     
     #viteMer {
@@ -354,13 +404,13 @@ footer img {
     }
     #byggeNoe {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column;
     }
     
     #byggeNoeImage img{
         background-repeat: no-repeat;
         background-size: cover;
-        max-width:44vw;
+        max-width:100%;
         max-height:100%;
     }
     #byggeNoeText {
@@ -370,7 +420,7 @@ footer img {
         display: none;
     }
     .t-img {
-        max-width: 15%;
+        max-width: 100%;
     }
     #articles {
         flex-direction: row;
@@ -400,15 +450,41 @@ footer img {
     footer {
         padding-top: 1%;
     }
+    
 }
 
-/* ViteMer Tablet end */
+@media (min-width: 768px) {
+    .profile-container {
+        display: flex;
+    }
+
+    
+    #hjelp {
+        flex-direction: row;
+    }
+    .hjelp-text {
+        text-align: left;
+    }
+
+    .hjelp-img {
+        margin-right: 35px;
+    }
+     #byggeNoe {
+        display: flex;
+        flex-direction: row-reverse;
+     }
+
+}
 
 @media (min-width: 992px) { 
     #arrangere-container {
         flex-direction: row;
+        
     }
-    
+
+    #arrangereText {
+        width: 60%;
+    }
     
     #viteMer {
         display: flex;
@@ -430,7 +506,7 @@ footer img {
 
     #byggeNoeImage img{
         padding-left: 1%;
-        max-width:100%;
+        max-width:43vw;
         max-height:100%;
     }
     #byggeNoeText {
@@ -439,9 +515,7 @@ footer img {
         margin-top: 3em;
         max-width: 58%;
     }
-    .hjelp-text {
-        text-align: center;
-    }
+
     .article-text {
         text-align: center;
     } 
