@@ -154,9 +154,6 @@ background-color: #2b3450 !important;
 
 /* ViteMer mobil end */
 
-
-
-
 #byggeNoe { 
     display: flex;
     flex-direction: column;
@@ -393,6 +390,8 @@ background-color: #2b3450 !important;
     margin-top: 20px;
 }
 
+
+
 /* Bloggpost start*/
 
 img {
@@ -516,6 +515,36 @@ img {
 
 /* bloggpost end */
 
+/* Samarbeidspartnere start */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: auto;
+}
+
+.grid > div {
+
+    padding: 1rem;
+    display: grid;
+    place-items: center;
+}
+
+.grid > div::before {
+    content: "";
+    padding-top: 100%;
+    display: block;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.grid> div> img {
+    width: 100%;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+
+/* Samarbeidspartnere slutt */
+
 @media (max-width: 575px) {   /* THIS IS MAX */
     .profile-blogg-title {
         margin-left: 4%;
@@ -534,6 +563,14 @@ img {
 }
 
 @media (min-width: 576px) {     /* THIS IS MIN */
+    .contact-details {
+        width: 330px;
+    }
+    
+    .contact-us {
+        flex-direction: row;
+    }
+    
     .profile-img img {
         width: 50rem;
     }
@@ -555,11 +592,7 @@ img {
         border-radius: 5px;
         margin-top: 5px;
     }
-    
-    #viteMer {
-       display: flex;
-       flex-direction: column;
-    }
+
     #viteMerImage img {
         background-repeat: no-repeat;
         max-width:100%;
@@ -648,10 +681,15 @@ img {
     .hjelp-img {
         margin-right: 35px;
     }
-     #byggeNoe {
+    #byggeNoe {
+       display: flex;
+       flex-direction: row-reverse;
+    }
+
+    #viteMer {
         display: flex;
-        flex-direction: row-reverse;
-     }
+        flex-direction: row;
+    }
 
 }
 
