@@ -37,27 +37,30 @@
                 <div class="row">
                     <div class="col-12">
                         <nav class="navbar navbar-dark bg-dark ">
-                            <a class="navbar-brand" href="../"><img id="logoNav" src="img/ultify-logo-hvit-skrift-uten-150px.png" alt="Ultify logo navbar"></a>
-                                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <ul id="navbar-2" class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="link-link" href="kontakt.html">Kontakt oss</a>
-                                    </li>
-                                </ul>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="navbarToggleExternalContent">
-                                    <div class="navContent" id="dropdownMenuButton">
-                                        <h5 id="meny-tittle">MENY</h5>
-                                        <ul class="navbar-nav ml-auto">
-                                            <li><a class="dropdown-item" href="nyheter.html">Nyheter</a></li>
-                                            <li><a class="dropdown-item" href="samarbeidspartnere.html">Samarbeidspartnere</a></li>
-                                            <li><a class="dropdown-item" href="arrangere.html">Arrangere webinar?</a></li>
-                                            <li><a class="dropdown-item" href="kristian-rasmussen.html">Kristian</a></li>
-                                            <li><a class="dropdown-item" href="nicolai.html">Nicolai</a></li>
-                                        </ul>
-                                    </div>
+                            <div class="dropdown">
+                                <button id="lang" onclick="myFunction()" class="dropbtn">Language</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="#">Norsk</a>
+                                    <a href="#">English</a>
                                 </div>
+                            </div>
+                            <a class="navbar-brand" href="../"><img id="logoNav" src="img/ultify-logo-hvit-skrift-uten-150px.png" alt="Ultify logo navbar"></a>
+                            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="navbarToggleExternalContent">
+                                <div class="navContent" id="dropdownMenuButton">
+                                    <h5 id="meny-tittle">MENY</h5>
+                                    <ul class="navbar-nav ml-auto">
+                                        <li><a class="dropdown-item" href="nyheter.html">Nyheter</a></li>
+                                        <li><a class="dropdown-item" href="samarbeidspartnere.html">Samarbeidspartnere</a></li>
+                                        <li><a class="dropdown-item" href="arrangere.html">Arrangere webinar?</a></li>
+                                        <li><a class="dropdown-item" href="kristian-rasmussen.html">Kristian</a></li>
+                                        <li><a class="dropdown-item" href="nicolai.html">Nicolai</a></li>
+                                        <li><a class="dropdown-item" href="kontakt.html">Kontakt oss</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </nav>
                     </div>
                 </div>
@@ -93,11 +96,11 @@
         <ul class="cards">
             <li class="cards__item">
                 <div class="card">
-                <div class="card__image card__image--fence"></div>
+                <div class="card__image card__image--webinar"></div>
                 <div class="card__content">
-                    <div class="card__title">Flex</div>
-                    <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
-                    <button class="btn btn--block card__btn">Button</button>
+                    <div class="card__title">Webinar</div>
+                    <p class="card__text">Et webinar er en effektiv måte å kommunisere med kundene dine på. Digitale seminar har bare blitt mer og mer populære i det siste. Hva er webinar? Hvordan kommer du i..</p>
+                    <a href="webinar.html"><button class="btn btn--block card__btn"> Les mer</button></a>
                 </div>
                 </div>
             </li>
@@ -105,19 +108,19 @@
                 <div class="card">
                 <div class="card__image card__image--river"></div>
                 <div class="card__content">
-                    <div class="card__title">Flex Grow</div>
-                    <p class="card__text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
-                    <button class="btn btn--block card__btn">Button</button>
+                    <div class="card__title">Hva er et webinar?</div>
+                    <p class="card__text">Ordet webinar kommer av en sammenslåing av de to ordene web og seminar, og innebærer nemlig akkurat dette: et web seminar. Et klassisk webinar kan også.. </p>
+                    <a href="webinar-software.html"><button class="btn btn--block card__btn">Les mer</button></a>
                 </div>
                 </div>
             </li>
             <li class="cards__item">
                 <div class="card">
-                <div class="card__image card__image--record"></div>
+                <div class="card__image card__image--kom-i-gang"></div>
                 <div class="card__content">
-                    <div class="card__title">Flex Shrink</div>
-                    <p class="card__text">This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.</p>
-                    <button class="btn btn--block card__btn">Button</button>
+                    <div class="card__title">Forberedelser til webinar</div>
+                    <p class="card__text">Skal du holde webinar? Da bør du sette deg inn i hvilke forberedelser til webinar du bør gjøre. Slik gjennomfører du et vellykket..</p>
+                    <a href="kom-i-gang.html"><button class="btn btn--block card__btn">  Les mer</button></a>
                 </div>
                 </div>
             </li>
