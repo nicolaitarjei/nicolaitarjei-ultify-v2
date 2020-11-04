@@ -20,19 +20,32 @@ body {
 button {
     padding: 1vh;
     margin-bottom: 2vh;
+    color: #f5df9d;
+    background-color: #2b3450;
+    border-radius: 5px;
 }
 
-iframe {
-    width: 100%;
-    height: 37em;
-    border: none;
+button:hover {
+    background-color: #445380;
+}
+
+.contact-link a {
+    margin-top: 15px !important;
 }
 
 footer {
     background-color: #2b3450;
     padding-top: 5%;
     padding-bottom: 1%;
+    color: #f9d76f;
+}
 
+footer a {
+    color: #f9d76f;
+}
+
+footer a:hover {
+    color: #f5e5b6;
 }
 
 footer img {
@@ -67,6 +80,8 @@ footer img {
 #myDropdown {
     min-width: 0;
 }
+
+
 
 .dropbtn {
     background-color: #2b3450;
@@ -384,6 +399,10 @@ background-color: #2b3450 !important;
     margin-left: 4%;
 }
 
+.copyright {
+    font-size: small;
+}
+
 .site-margin { /* Personvern space top  */
     margin-top: 2rem;
 }
@@ -420,10 +439,17 @@ background-color: #2b3450 !important;
     color: #f9d76f;
 }
 
-.kontakt-oss-btn {
+.kontakt-oss-btn {  /* Arrangere webinar*/
     padding: 2px 4px;
     border-radius: 5px;
     margin-top: 5px;
+    color: #2b3450;
+    background-color: #f9d76f;
+}
+
+.kontakt-oss-btn:hover {
+    color: #2b3450;
+    background-color: #f5e5b6;
 }
 
 .profile-img img {
@@ -479,11 +505,16 @@ img {
 }
 
 .btn {
-    background-color: white;
+    background-color: #2b3450;
     border: 1px solid #cccccc;
-    color: #696969;
+    color: #f9d76f;
     padding: 0.5rem;
     text-transform: lowercase;
+}
+
+.btn:hover {
+    background-color: #434b61;
+    color: #f5e5b6;
 }
 
 .btn--block {
@@ -652,10 +683,9 @@ img {
 }
 /* Samarbeidspartnere slutt */
 
-
-/* Navbar 2  start*/
-
-/* Navbar 2  end*/
+.margin-top-title {
+    margin-top: 20px;
+}
 
 
 @media (max-width: 575px) {   /* THIS IS MAX */
@@ -676,9 +706,27 @@ img {
 }
 
 @media (min-width: 576px) {     /* THIS IS MIN */
-.dropdown {
-    margin-bottom: 11px;
-}
+    #aartun {
+        height: 7rem;
+        width: auto;
+    }
+    
+    .footer {
+        padding-top: 25px;
+    }
+
+    .copyright {
+        margin-left: 2%;
+    }
+    
+    .copyright p {
+        font-size: small;
+        padding-top: 20px;
+    }
+    
+    .dropdown {
+        margin-bottom: 11px;
+    }
     
     .contact-details {
         width: 330px;
@@ -770,6 +818,13 @@ img {
 }
 
 @media (min-width: 768px) {
+    #byggeNoeImage img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 48vw;
+        max-height: 100%;
+    }
+    
     .profile-blogg-title {
         margin-left: 29px;
         margin-bottom: 2%;
@@ -844,7 +899,7 @@ img {
 
     #byggeNoeImage img{
         padding-left: 1%;
-        max-width:43vw;
+        max-width:50vw;
         max-height:100%;
     }
     #byggeNoeText {
