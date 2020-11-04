@@ -512,32 +512,63 @@ img {
     line-height: 1.5;
     margin-bottom: 1.25rem;
 }
-
 /* bloggpost end */
 
+/* Frontpage grid start */
+.grid-front {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    gap: 1rem;
+    margin: auto;
+}
+
+.grid-front> div {
+    padding: 1rem;
+    display: grid;
+    place-items: center;
+}
+
+.grid-front> div::before {
+    content: "";
+    display: block;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.grid-front> div> img {
+    width: 100%;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.grid-front > .grid-text {
+    width: 100%;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+
+/* Frontpage grid start */
+
 /* Samarbeidspartnere start */
-.grid {
+.grid-samarbeid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 1rem;
     margin: auto;
 }
 
-.grid > div {
-
+.grid-samarbeid> div {
     padding: 1rem;
     display: grid;
     place-items: center;
 }
 
-.grid > div::before {
+.grid-samarbeid> div::before {
     content: "";
     padding-top: 100%;
     display: block;
     grid-area: 1 / 1 / 2 / 2;
 }
 
-.grid> div> img {
+.grid-samarbeid> div> img {
     width: 100%;
     grid-area: 1 / 1 / 2 / 2;
 }
