@@ -490,12 +490,12 @@ img {
     background-image: url(https://unsplash.it/800/600?image=11);
 }
 
-.card__image--record {
-    background-image: url(https://unsplash.it/800/600?image=39);
+.card__image--kom-i-gang {
+    background-image: url(/img/Lei-et-studio-til-ditt-neste-webinar.jpg);
 }
 
-.card__image--fence {
-    background-image: url(https://unsplash.it/800/600?image=59);
+.card__image--webinar {
+    background-image: url(/img/Online-kurs-og-konferanser.jpg);
 }
 
 .card__title {
