@@ -683,11 +683,11 @@ img {
 }
 
 .card__image--kom-i-gang {
-    background-image: url(/img/Lei-et-studio-til-ditt-neste-webinar.jpg);
+    background-image: url(../img/Lei-et-studio-til-ditt-neste-webinar.jpg);
 }
 
 .card__image--webinar {
-    background-image: url(/img/Online-kurs-og-konferanser.jpg);
+    background-image: url(../img/Online-kurs-og-konferanser.jpg);
 }
 
 .card__title {
