@@ -60,6 +60,7 @@ h1 {
     font-weight: 500;
     line-height: 1.5;
     color: #2b3450;
+    font-size: 2rem;
 }
 
 h2 {
@@ -789,6 +790,10 @@ img {
 }
 
 @media (min-width: 576px) {     /* THIS IS MIN */
+    h1 {
+        font-size: 2.5rem;
+    }
+
     #aartun {
         height: 7rem;
         width: auto;
