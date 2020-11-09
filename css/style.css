@@ -676,15 +676,15 @@ img {
 /* images news*/
 
 .card__image--flowers {
-    background-image: url(https://unsplash.it/800/600?image=82);
+    background-image: url(../img/Hybrid_webinar_ultify-2.jpg);
 }
 
 .card__image--river {
-    background-image: url(https://unsplash.it/800/600?image=11);
+    background-image: url(../img/Hva-er-et-webinar.jpg);
 }
 
 .card__image--kom-i-gang {
-    background-image: url(../img/Lei-et-studio-til-ditt-neste-webinar.jpg);
+    background-image: url(../img/Forberedelse-til-webinar-Ultify.jpg);
 }
 
 .card__image--webinar {
