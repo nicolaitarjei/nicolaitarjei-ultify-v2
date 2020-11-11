@@ -675,11 +675,11 @@ img {
 
 /* images news*/
 
-.card__image--flowers {
+.card__image--hybrid {
     background-image: url(../img/Hybrid_webinar_ultify-2.jpg);
 }
 
-.card__image--river {
+.card__image--what-is-a-webinar {
     background-image: url(../img/Hva-er-et-webinar.jpg);
 }
 
@@ -689,6 +689,14 @@ img {
 
 .card__image--webinar {
     background-image: url(../img/Online-kurs-og-konferanser.jpg);
+}
+
+.card__image--how-to-conduct {
+    background-image: url(../img/How-to-conduct-a-webinar.jpg);
+}
+
+.card__image--how-to-get-started {
+    background-image: url(../img/Get-started-with-webinars.jpg);
 }
 
 .card__title {
