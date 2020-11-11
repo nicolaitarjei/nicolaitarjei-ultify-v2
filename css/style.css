@@ -699,6 +699,10 @@ img {
     background-image: url(../img/Get-started-with-webinars.jpg);
 }
 
+.card__image--how-to-plan-a-successful-webinar {
+    background-image: url(../img/How-to-plan-a-successful-webinar.jpg);
+}
+
 .card__title {
     color: #696969;
     font-size: 1.25rem;
