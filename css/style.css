@@ -214,6 +214,21 @@ hr {
     background-color: #434b619c;
 }
 
+.soMes {
+    display: flex;
+    justify-content: center;
+}
+
+.soMe-size {
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.soMe-size img:hover {
+    transform: scale(1.5);
+}
+
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
     display: block;
