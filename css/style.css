@@ -814,6 +814,39 @@ img {
     margin-top: 20px;
 }
 
+.leadsform {
+    background-color: #edeef1;
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+}
+
+.leadsfields {
+    width: 80%;
+    margin: auto;
+}
+
+.leadstitle {
+    padding-top: 1%;
+    text-align: center;
+}
+
+.leadssub {
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.contact-detail {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 
 @media (max-width: 575px) {   /* THIS IS MAX */
     .profile-blogg-title {
