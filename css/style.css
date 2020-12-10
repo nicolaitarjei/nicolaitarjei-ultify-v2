@@ -877,8 +877,9 @@ img {
 }
 
 .partner-image img {
-    max-width: 15%;
+    max-width: 200px;
 }
+
 
 .webinarhjelpen {
     margin-top: 40px;
@@ -890,6 +891,8 @@ img {
 
 
 @media (max-width: 575px) {   /* THIS IS MAX */
+
+    
     .profile-blogg-title {
         margin-left: 4%;
         margin-bottom: 6%;

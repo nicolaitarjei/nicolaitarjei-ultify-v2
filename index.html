@@ -29,6 +29,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="alternate" href="https://www.ultify.no/" hreflang="nb-no" />
         <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
 <!--Logo in navbar-->
@@ -83,7 +84,8 @@
                 </div>
             </div>
 <!-- Top banner end-->
-        <div id="viteMer" class=" container-fluid">
+    
+        <div id="viteMer" class="container-fluid">
             <div id="viteMerImage" class="p-2 col">
                 <img src="img/mariust_watching_webinar.gif" alt="animated image">
             </div>
@@ -95,23 +97,25 @@
                 </div>
             </div>
         </div>
-        <div id="byggeNoe" class="container-fluid">
-            <div id="byggeNoeImage" class="p-2">
-                <img src="img/mariust_coffee_meeting.gif" alt="animated image">
-            </div>
-            <div id="byggeNoeText" class="p-2">
-                <h2>Kom i gang med webinar</h2>
-                <p>Velg en effektiv måte å formidle på, med riktig utstyr og lokaler. Vi hjelper dere med å finne ut hva dere trenger, og hvordan relevant innhold både gir fornøyde kunder og god markedsføring.</p>
-                <div class="contact-link">
-                    <a href="kontakt.html"><button>Få hjelp til å komme i gang</button></a>
+        
+            <div id="byggeNoe" class="container-fluid" data-aos="zoom-in" data-aos-duration="3500">
+                <div id="byggeNoeImage" class="p-2">
+                    <img src="img/mariust_coffee_meeting.gif" alt="animated image">
+                </div>
+                <div id="byggeNoeText" class="p-2">
+                    <h2>Kom i gang med webinar</h2>
+                    <p>Velg en effektiv måte å formidle på, med riktig utstyr og lokaler. Vi hjelper dere med å finne ut hva dere trenger, og hvordan relevant innhold både gir fornøyde kunder og god markedsføring.</p>
+                    <div class="contact-link">
+                        <a href="kontakt.html"><button>Få hjelp til å komme i gang</button></a>
+                    </div>
                 </div>
             </div>
-        </div>
+
 <!-- services end-->
         <div class="webinarhjelpen">
             <h2 id="webinarhjelpen-title">Webinarhjelpen</h2>
             <ul class="cards">
-                <li class="cards__item">
+                <li class="cards__item" data-aos="zoom-in">
                     <div class="card">
                     <div class="card__image card__image--how-to-conduct"></div>
                     <div class="card__content">
@@ -121,7 +125,7 @@
                     </div>
                     </div>
                 </li>
-                <li class="cards__item">
+                <li class="cards__item" data-aos="zoom-in">
                     <div class="card">
                     <div class="card__image card__image--hybrid"></div>
                     <div class="card__content">
@@ -131,7 +135,7 @@
                     </div>
                     </div>
                 </li>
-                <li class="cards__item">
+                <li class="cards__item" data-aos="zoom-in">
                     <div class="card">
                     <div class="card__image card__image--webinar"></div>
                     <div class="card__content">
@@ -147,18 +151,18 @@
 
         <div class="samarbeid">
             <h2 id="samarbeid-title">Samarbeid og partnere</h2>
-            <p>De beste løsningene er et resultat av samarbeid <br> Vi jobber tett med partnerne våre, for å skape det <br> beste produktet og opplevelsene til både <br> bedrifter og brukere</p>
-            <a href="samarbeidspartnere.html"><button>Lyst til å samarbeide</button></a>
+            <p data-aos="zoom-in">De beste løsningene er et resultat av samarbeid <br> Vi jobber tett med partnerne våre, for å skape det <br> beste produktet og opplevelsene til både <br> bedrifter og brukere</p>
+            <a data-aos="zoom-in" href="samarbeidspartnere.html"><button>Lyst til å samarbeide</button></a>
 
-            <div class="partner">
+            <div class="partner" data-aos="zoom-in">
                 <div class="partner-text">Ultify virker som en god løsning som vi vil bruke i våre egne <br> programmer, og tilby våre eksterne kunder <br> <br> <i>Jonas Lundervold. Technical Project Coordinator at Startup Norway</i></div>
                 <div class="partner-image"><img src="img/startup-norway.png" alt="startup norway logo"></div>
             </div>
-            <div class="partner">
-                <div class="partner-text">Jeg ser helt klart flere interessante bruksområder og har veldig <br> lyst til å være med videre og teste løsningen. Vi har allerede <br> mye innhold som vi raskt kna dele på en slik platform <br> <br> <i>Øistein Offergaard Haralstad, Sprint Consulting</i> <i>Jonas Lundervold. Technical Project Coordinator at Startup Norway</i></div>
+            <div class="partner" data-aos="zoom-in">
+                <div class="partner-text">Jeg ser helt klart flere interessante bruksområder og har veldig <br> lyst til å være med videre og teste løsningen. Vi har allerede <br> mye innhold som vi raskt kna dele på en slik platform <br> <br> <i>Øistein Offergaard Haralstad, Sprint Consulting</i> </div>
                 <div class="partner-image"><img src="img/sprint-consulting.png" alt="startup norway logo"></div>
             </div>
-            <div class="partner">
+            <div class="partner" data-aos="zoom-in">
                 <div class="partner-text">We find many interesting synergies with Ultify, as we see an <br> increasing demand of online courses and webinars offered in an <br> organized and easy to navigate manner <br> <br> <i>Angela Holter, Managing Director Woman Investor Network Norway</i></div>
                 <div class="partner-image"><img src="img/win.png" alt="startup norway logo"></div>
             </div>
@@ -200,5 +204,9 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
