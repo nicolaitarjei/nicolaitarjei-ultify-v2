@@ -98,6 +98,9 @@ h5 {
     line-height: 1.5;
 }
 
+p {
+    line-height: 1.5;
+}
 
 /* global scope */
 
@@ -105,6 +108,17 @@ h5 {
     margin-bottom: 0;
 }
 
+#heading-frontpage {
+    text-align: center;
+}
+
+#paragraph-frontpage {
+    text-align: center;
+}
+
+#webinarhjelpen-title {
+    text-align: center;
+}
 
 /* Language selector start*/
 
@@ -360,6 +374,7 @@ background-color: #2b3450 !important;
 #byggeNoe { 
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
 }
 
 #byggeNoeImage img{ 
@@ -849,6 +864,7 @@ img {
 
 .samarbeid {
     text-align: center;
+    margin-top: 40px;
 }
 
 .partner {
@@ -857,6 +873,19 @@ img {
 
 .partner-image {
     margin: 20px 0;
+
+}
+
+.partner-image img {
+    max-width: 15%;
+}
+
+.webinarhjelpen {
+    margin-top: 40px;
+}
+
+.partner-text {
+    font-weight: 700;
 }
 
 
@@ -878,6 +907,8 @@ img {
 }
 
 @media (min-width: 576px) {     /* THIS IS MIN */
+
+    
     .soMe-size-footer img {
         width: 30px !important;
     }
@@ -888,11 +919,6 @@ img {
     
     h1 {
         font-size: 2.5rem;
-    }
-
-    #aartun {
-        height: 7rem;
-        width: auto;
     }
     
     .footer {
@@ -948,7 +974,7 @@ img {
         max-height:100%;
     }
     #viteMerText {
-        margin-top: 1em;
+        max-width: 440px;
     }
     #byggeNoe {
         display: flex;
@@ -963,7 +989,9 @@ img {
     }
     #byggeNoeText {
         margin-top: 1em;
+        max-width: 440px;
     }
+
     #testimonials-carousel {
         display: none;
     }
@@ -1002,6 +1030,19 @@ img {
 }
 
 @media (min-width: 768px) {
+    #samarbeid-title {
+        font-size: 2.5rem;
+    }
+
+    #webinarhjelpen-title {
+    font-size: 2.5rem;
+}
+
+    #heading-frontpage {
+        font-size: 3.5rem;
+        font-weight: 600;
+        line-height: 1.2;
+    }
     .soMe-size-footer img {
         width: 30px;
     }
@@ -1049,6 +1090,7 @@ img {
     #viteMer {
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
     }
 
 }
@@ -1065,36 +1107,34 @@ img {
 
     #arrangereText {
         width: 60%;
+        text-align: left;
     }
-    
     #viteMer {
-        display: flex;
-        flex-direction: row;
-    }
+        max-width: 1110px;
+    }    
+
     #viteMerImage img{
-        padding-left: 1%;
-        max-width:100%;
-        max-height:100%;       
+        max-width:600px;
+        max-height:100%;
     }
+
     #viteMerText {
-        max-width: 50%;
-        margin-top: 2em;
+        margin-top: 4em;
     }
     #byggeNoe {
         display: flex;
         flex-direction: row-reverse !important;
+        max-width: 1110px;
     }
 
     #byggeNoeImage img{
         padding-left: 1%;
-        max-width:50vw;
-        max-height:100%;
+        max-width:532px;
     }
     #byggeNoeText {
         display: block;
         margin-left: 1em;
-        margin-top: 3em;
-        max-width: 58%;
+        margin-top: 5em;
     }
 
     .article-text {
