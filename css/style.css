@@ -173,6 +173,7 @@ p {
 
 /* FAQ */
 
+
 hr {
     display: block;
     margin-top: -0.5em;
@@ -913,7 +914,10 @@ img {
 }
 
 @media (min-width: 576px) {     /* THIS IS MIN */
-
+    .center-button {
+        display: flex;
+        margin: auto;
+    }
     
     .soMe-size-footer img {
         width: 30px !important;
