@@ -104,6 +104,10 @@ p {
 
 /* global scope */
 
+.navbar {
+    align-items: flex-end;
+}
+
 .jumbotron {
     margin-bottom: 0;
 }
@@ -202,7 +206,6 @@ hr {
     position: absolute;
     display: inline-block;
     right: 95px;
-    margin-bottom: 17px;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -937,9 +940,6 @@ img {
         padding-top: 20px;
     }
     
-    .dropdown {
-        margin-bottom: 11px;
-    }
     
     .contact-details {
         width: 330px;
