@@ -23,6 +23,7 @@ button {
     color: #f5df9d;
     background-color: #2b3450;
     border-radius: 5px;
+    font-weight: 700;
 }
 
 button:hover {
@@ -893,6 +894,10 @@ img {
     font-weight: 700;
 }
 
+.background-color {
+    background-color: #e9ecef;
+
+}
 
 @media (max-width: 575px) {   /* THIS IS MAX */
 
