@@ -899,6 +899,15 @@ img {
 
 }
 
+.web-sub {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.web-item {
+    margin: 30px 0;
+}
+
 @media (max-width: 575px) {   /* THIS IS MAX */
 
     
