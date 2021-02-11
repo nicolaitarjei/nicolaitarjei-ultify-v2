@@ -912,6 +912,10 @@ img {
     color: #2b3450;
 }
 
+.se-alle a{
+    margin-top:15px;
+}
+
 @media (max-width: 575px) {   /* THIS IS MAX */
 
     
